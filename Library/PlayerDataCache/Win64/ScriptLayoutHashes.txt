@@ -118,6 +118,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
+7465bc4f2cfa6222f3caa1ea94e5b7d0 Assembly-CSharp.dll:.EndMenu
 564ad3f3997c0668764f4ce5933f843e Assembly-CSharp.dll:.PathRight
 00d5ae1de36fcdf1056075a44d53d4a8 Assembly-CSharp.dll:.Movement1
 b8a5e8091ab0b8861d2add371082c5e0 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
@@ -157,6 +158,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
+46f7d84743a9a72cc143a3b2ae80f41c Assembly-CSharp.dll:.Countdown
 3b760e6526e13f7504f59e210145899a Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 564ad3f3997c0668764f4ce5933f843e Assembly-CSharp.dll:.PathTop
 507174d46dacbc5fe45e28485db5dd1e Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
@@ -166,5 +168,5 @@ df434544c9f7b33d1cc7e635b180d279 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 0f166d087487910cf80e8402a2a1e97c Assembly-CSharp.dll:.Score1
-7465bc4f2cfa6222f3caa1ea94e5b7d0 Assembly-CSharp.dll:.EndMenu
-46f7d84743a9a72cc143a3b2ae80f41c Assembly-CSharp.dll:.Countdown
+7e0211f0d947d82dcb3867d13107388d Assembly-CSharp.dll:.btnfx
+16a66ed915d9da2182a6690748eeb44a Assembly-CSharp.dll:.SoundMngrAssets

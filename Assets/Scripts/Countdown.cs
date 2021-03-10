@@ -23,8 +23,10 @@ public class Countdown : MonoBehaviour
             CountdownTime--;
         }
         counter.text = "GO!";
+        SoundMngr.PlaySound();
         yield return new WaitForSeconds(1f);
         PlayerPrefs.SetInt("go",  1);
+        
         counter.gameObject.SetActive(false);
     }
 }
