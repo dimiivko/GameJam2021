@@ -13,10 +13,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - backgrond1
+  - background2
+  - back3
+  - back4
   - 
   - 
   - 
@@ -38,6 +38,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: backgrond1
+    uniqueID: 649507585
+    locked: 0
+  - name: background2
+    uniqueID: 3216193165
+    locked: 0
+  - name: back3
+    uniqueID: 3358911097
+    locked: 0
+  - name: back4
+    uniqueID: 4118661255
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

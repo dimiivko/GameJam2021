@@ -18,16 +18,17 @@ public class PathGenerator : MonoBehaviour
     }
     void OnTriggerStay2D(Collider2D other)
     {
-        //Debug.Log("asd");
-        x = Random.Range(-1.0f, 1.0f);
-        if (x > 0)
-        {
-            transform.position = new Vector3(Random.Range(-10.0f, -1.0f), transform.position.y, 0);
+
+            x = Random.Range(-1.0f, 1.0f);
+            if (x > 0)
+            {
+                transform.position = new Vector3(Random.Range(-10.0f, -1.0f), transform.position.y, 0);
+            }
+            else
+            {
+                transform.position = new Vector3(transform.position.x, Random.Range(-4.5f, -0.5f), 0);
+            }
         }
-        else
-        {
-            transform.position = new Vector3(transform.position.x, Random.Range(-4.5f, -0.5f), 0);
-        }
-        
-    }
+        //Debug.Log("asd");          
+    
 }
