@@ -35,13 +35,9 @@ public class Path : MonoBehaviour
 
     private void Move()
     {
-        // If Enemy didn't reach last waypoint it can move
-        // If enemy reached last waypoint then it stops
         if (waypointIndex <= waypoints.Length - 1)
         {
 
-            // Move Enemy from current waypoint to the next one
-            // using MoveTowards method
             movement = transform.position;
             if (waypoints[waypointIndex].transform.position!= lastPoz)
             {
@@ -56,9 +52,7 @@ public class Path : MonoBehaviour
             animator.SetFloat("Horizontal", movement.x);
             animator.SetFloat("Vertical", movement.y);
             animator.SetFloat("Speed", movement.sqrMagnitude*100);
-            // If Enemy reaches position of waypoint he walked towards
-            // then waypointIndex is increased by 1
-            // and Enemy starts to walk to the next waypoint
+
 
         }
     }

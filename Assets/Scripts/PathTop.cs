@@ -33,13 +33,11 @@ public class PathTop : MonoBehaviour
 
     private void Move()
     {
-        // If Enemy didn't reach last waypoint it can move
-        // If enemy reached last waypoint then it stops
+
         if (waypointIndex <= waypoints.Length - 1)
         {
 
-            // Move Enemy from current waypoint to the next one
-            // using MoveTowards method
+
             if (waypoints[waypointIndex].transform.position != lastPoz)
             {
                 moveSpeedCurr = 0.0f;
@@ -49,9 +47,6 @@ public class PathTop : MonoBehaviour
               new Vector2(waypoints[waypointIndex].transform.position.x, -waypoints[waypointIndex].transform.position.y),
                moveSpeedCurr * Time.deltaTime);
            
-            // If Enemy reaches position of waypoint he walked towards
-            // then waypointIndex is increased by 1
-            // and Enemy starts to walk to the next waypoint
 
         }
     }
